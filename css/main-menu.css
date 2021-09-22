@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(255, 182, 193);
+}
+ul {
+    list-style: none;
+    font-size: 1.5em;
+    text-align: right;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(3, 3, 0);
+}
+li:hover {
+    background-color: rgb(221, 160, 221);
+}
+.main-content {
+    margin: 3em;
+}
