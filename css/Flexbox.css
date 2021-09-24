@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    width: 90%;
+    border: 8px solid mediumpurple;
+    margin: 20px auto;
+}
+.container-flex1 {
+    display: flex;
+    flex-direction: colum;
+    background: purple;
+}
+.container-flex2 {
+        display: flex;
+        flex-direction: row;
+        background: violet;
+}
+.container-flex3 {
+    display: flex;
+    flex-wrap: wrap;
+    background: pink;
+}
+.container-flex4 {
+    display: flex;
+    flex-wrap: nowrap;
+    background: yellow;
+}
+.container-flex5 {
+    display: flex;
+    justify-content: space-between;
+    background: blueviolet;
+}
+.container-flex6 {
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+}
+.container-flex7 {
+    display: flex;
+    justify-content: space-around;
+    background: green;    
+}
+.container-flex8 {
+    display: flex;
+    justify-content: flex-start;
+    background: greenyellow;
+}   
+.container-flex9 {
+    display: flex;
+    justify-content: flex-end;
+    background: yellow;     
+}    
+.container-flex10 {
+    display: flex;
+    justify-content: center;
+    background: yellow;     
+}    
+.container-flex11 {
+    display: flex;
+   align-items: flex-start;
+    background: yellow;   
+    height: 800px;  
+}
+.container-flex12 {
+    display: flex;
+    align-items: flex-end;
+    background: yellow;  
+    height: 800px;   
+}
+.container-flex13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;  
+    height: 800px; 
+}
+.container-flex14 {
+    display: flex;
+    background: pink; 
+    align-items: center; 
+    justify-content: center;
+    height: 900px;       
+}          
+.item-flex {  
+    width: 200px;
+    height: 200px;
+    background-color: rosybrown;
+    color: white;
+    font-size: 1.5em;
+    margin: 20px; 
+}
